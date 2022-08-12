@@ -1,0 +1,51 @@
+Assignment 1
+
+1. Explain JDK, JRE and JVM?
+-->  JDK: 
+		JDK (Java Development Kit) is a software development kit to develop applications in Java.
+		In addition to JRE, JDK also contains number of development tools (compilers, JavaDoc, Java Debugger etc.).
+
+	 JRE:
+		JRE (Java Runtime Environment) is the implementation of JVM and is defined as a software package
+		that provides Java class libraries,
+		along with Java Virtual Machine (JVM), 
+		and other components to run applications written in Java programming.
+		
+	 JVM:
+		JVM (Java Virtual Machine) is an abstract machine that is platform-dependent and
+		has three notions as a specification, a document that describes requirement of JVM implementation,
+		implementation, a computer program that meets JVM requirements,
+		and instance, an implementation that executes Java byte code
+		provides a runtime environment for executing Java byte code.
+		
+		
+2. Why Java is platform independent
+-->  Java is platform-independent because it uses a virtual machine.
+	The Java programming language and all APIs are compiled into bytecodes.
+	Bytecodes are effectively platform-independent.
+	The virtual machine takes care of the differences between the bytecodes for the different platforms
+	
+3. List down all primitive data types in java in order of their capacity.
+-->byte=8 bits
+	char=16bits
+	short=16bits
+	int=32bits
+	long=64bits
+	float=32bits
+	double=64bits
+	boolean=true/false
+	
+4. Which of the following are valid variable names?
+--> b)my$Var
+
+11. State true or false. Rewrite statement correctly if false.
+
+a)Java program compiles and interprets each time you execute it.
+-->true: Java is considered as both interpreted and compiled. It uses a Java compiler (javac)
+ and JVM ( which is actually a software-based interpreter)
+ to execute a Java
+
+b) Java is platform independent but JVM is not.
+-->false: Java is platform-independent but JVM is platform dependent 
+		
+		
